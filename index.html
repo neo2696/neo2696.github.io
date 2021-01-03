@@ -412,12 +412,6 @@ l-55 116 -71 42 c-75 43 -90 49 -78 29z"/>
                 </i>
                 <span>Me</span>
             </a>
-          <!--   <a href="#awards" title="Awards" class="menu-item">
-                <i class="material-icons">
-                    emoji_events
-                </i>
-                <span>Awards</span>
-            </a> -->
             <a href="#school" title="School projects" class="menu-item">
                 <i class="material-icons">
                     school
@@ -454,7 +448,7 @@ l-55 116 -71 42 c-75 43 -90 49 -78 29z"/>
                           itemtype="http://schema.org/EducationalOccupationalCredential">
                         <span itemprop="name">computer engineer</span>
                         <meta itemprop="credentialCategory" content="degree">
-                        graduated by the
+                        graduated from 
                         <span itemprop="recognizedBy" itemscope itemtype="http://schema.org/CollegeOrUniversity">
                             <span itemprop="name">R.V College of Engineering</span>
                             <link itemprop="sameAs"
@@ -465,10 +459,10 @@ l-55 116 -71 42 c-75 43 -90 49 -78 29z"/>
                             </span>
                         </span>
                     </span>
-                    I am an enthusiast of the computer sciences always looking forward to learn more.
+                    I am an enthusiast of the comuter sciences and game development always looking forward to learn more.
                 </p>
-                <p>I really enjoy playing and creating games as well watching animes and movies in my spare time.</p>
-                <p>I speak <span itemprop="knowsLanguage">English</span>,
+                <p>I really enjoy playing and creating games as well as watching animes and movies in my spare time.</p>
+                <p>I speak <span itemprop="knowsLanguage">English </span> and
                     <span itemprop="knowsLanguage">Hindi</span> .</p>
                 <h3>My network</h3>
                 <ul class="my-network-links">
@@ -485,7 +479,7 @@ l-55 116 -71 42 c-75 43 -90 49 -78 29z"/>
         <div class="resume-entry">
             <div class="resume-entry-item" itemprop="alumniOf" itemscope
                  itemtype="http://schema.org/OrganizationRole">
-                <img class="resume-entry-icon" itemprop="image" src="Images/gu.png" height="10%"  width="10%" alt="University of Gothenburg logo">
+                <img class="resume-entry-icon" itemprop="image" src="Images/gu.png"  alt="University of Gothenburg logo">
                 <div class="resume-entry-content">
                     <h4 itemprop="alumniOf" itemscope
                         itemtype="http://schema.org/CollegeOrUniversity">
@@ -503,7 +497,7 @@ l-55 116 -71 42 c-75 43 -90 49 -78 29z"/>
         <div class="resume-entry">
             <div class="resume-entry-item" itemprop="alumniOf" itemscope
                  itemtype="http://schema.org/OrganizationRole">
-                <img class="resume-entry-icon" itemprop="image" src="Images/rv.png" height="5%"  width="5%"
+                <img class="resume-entry-icon" itemprop="image" src="Images/rv.png" 
                      alt="R.V. College of Engineering logo">
                 <div class="resume-entry-content">
                     <h4 itemprop="alumniOf" itemscope itemtype="http://schema.org/CollegeOrUniversity">
@@ -511,7 +505,7 @@ l-55 116 -71 42 c-75 43 -90 49 -78 29z"/>
                         <link itemprop="sameAs"
                               href="https://en.wikipedia.org/wiki/R.V._College_of_Engineering">
                     </h4>
-                    <h5 itemprop="description">Bachelor in Computer Engineering</h5>
+                    <h5 itemprop="description">Bachelor's Program in Computer Science Engineering</h5>
                 </div>
                 <span class="resume-entry-dates">
                     <span itemprop="startDate">2014</span> - <span itemprop="endDate">2018</span>
@@ -519,7 +513,7 @@ l-55 116 -71 42 c-75 43 -90 49 -78 29z"/>
             </div>
         </div>
     </section>
-   <!--  <section id="school">
+   <section id="school">
         <h2>
             <i class="material-icons">school</i>
             School Projects
@@ -528,21 +522,19 @@ l-55 116 -71 42 c-75 43 -90 49 -78 29z"/>
             career. I include here some of those which are publicly available or that I made a post about.</p>
         <h3>Games</h3>
         <div class="project" itemscope itemtype="https://schema.org/VideoGame https://schema.org/SoftwareSourceCode">
-            <link itemprop="author" rel="author" href="https://david-campos.github.io">
+            <link itemprop="author" rel="author" href="https://neo2696.github.io">
             <meta itemprop="applicationCategory" content="Game, Multimedia">
             <meta itemprop="gamePlatform" content="pc">
             <meta itemprop="playMode" content="SinglePlayer">
-            <meta itemprop="playMode" content="MultiPlayer">
             <meta itemprop="operatingSystem" content="Windows">
-            <meta itemprop="operatingSystem" content="Linux">
             <link itemprop="isBasedOn"
-                  href="https://en.wikipedia.org/wiki/Contra_(video_game)#Nintendo_Entertainment_System">
+                  href="https://en.wikipedia.org/wiki/Q*bert">
             <div class="project-header">
-                <a itemprop="url" href="https://davidingenieria.wordpress.com/2020/03/16/recreation-of-contra-nes/"
+                <!-- <a itemprop="url" href="https://davidingenieria.wordpress.com/2020/03/16/recreation-of-contra-nes/"
                    class="title">
-                    <span itemprop="name">Remake of Contra (NES)</span>
-                </a>
-                <div class="project-tags">
+                 -->    <span itemprop="name">Remake of Q*bert</span>
+                <!-- </a>
+                 --><div class="project-tags">
                     <span itemprop="programmingLanguage keywords">C++</span>
                     <span itemprop="keywords">SDL</span>
                     <span itemprop="keywords">2D</span>
@@ -553,83 +545,75 @@ l-55 116 -71 42 c-75 43 -90 49 -78 29z"/>
                 My project for the course of Game Engine Architecture during my master's program in the University
                 of Gothenburg. The objective was to recreate (partially, in my case) an old arcade game in C++ using
                 SDL, following the design principles of an entity-component engine and making it extensible and
-                maintainable. I recreated completely the first two stages of the classic game Contra
-                (time was quite tight).
+                maintainable. I recreated the game Q*bert with almost all the functionality of the original game.
             </p>
             <ul class="link-list">
-                <li>
+                <!-- <li>
                     <i class="material-icons">cloud_download</i>
                     <a itemprop="downloadUrl"
                        href="https://github.com/david-campos/Contra/raw/master/release/windows32bits_release.rar">
                         Windows 32-bits executable
                     </a>
-                </li>
+                </li> -->
                 <li>
                     <i class="fab fa-github"></i>
-                    <a itemprop="codeRepository" href="https://github.com/david-campos/Contra/">Source code</a>
+                    <a itemprop="codeRepository" href="https://github.com/neo2696/Remake-Q-bert/">Source code</a>
                 </li>
             </ul>
-            <div class="videos" itemprop="trailer" itemscope itemtype="http://schema.org/VideoObject">
-                <meta itemprop="name" content="Recration of Contra (NES)">
-                <meta itemprop="description" content="Demo of my recreation of Contra (NES)">
-                <meta itemprop="thumbnailUrl" content="https://img.youtube.com/vi/zmdyU1dkvy0/default.jpg">
+             <div class="videos" itemprop="trailer" itemscope itemtype="http://schema.org/VideoObject">
+                <meta itemprop="name" content="Remake of Q*bert)">
+                <meta itemprop="description" content="Demo of my recreation of Q*bert">
+                <meta itemprop="thumbnailUrl" content="https://img.youtube.com/vi/obvmD80LeWo/default.jpg">
                 <meta itemprop="uploadDate" content="2020-06-14">
-                <iframe class="video" src="https://www.youtube.com/embed/zmdyU1dkvy0" frameborder="0"
+                <iframe class="video" src="https://www.youtube.com/embed/obvmD80LeWo" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen>
                 </iframe>
-            </div>
+            </div> 
         </div>
-        <div class="project" itemscope itemtype="https://schema.org/VideoGame https://schema.org/SoftwareSourceCode">
-            <link itemprop="author" rel="author" href="https://david-campos.github.io">
+         <div class="project" itemscope itemtype="https://schema.org/VideoGame https://schema.org/SoftwareSourceCode">
+            <link itemprop="author" rel="author" href="https://neo2696.github.io">
             <meta itemprop="applicationCategory" content="Game, Multimedia">
             <meta itemprop="gamePlatform" content="pc">
             <meta itemprop="playMode" content="SinglePlayer">
             <meta itemprop="operatingSystem" content="Windows">
             <link itemprop="isBasedOn"
-                  href="https://en.wikipedia.org/wiki/Lemmings_(video_game)">
+                  href="https://en.wikipedia.org/wiki/Gish_(video_game)">
             <div class="project-header">
-                <a href="https://davidingenieria.wordpress.com/2019/11/24/my-first-2d-and-3d-games/" class="title"
-                   itemprop="url">
-                    <span itemprop="name">Remake of Lemmings and 3D Go-Style Game</span>
-                </a>
+                <!-- <a href="https://davidingenieria.wordpress.com/2019/11/24/my-first-2d-and-3d-games/" class="title"
+                   itemprop="url"> -->
+                    <span itemprop="name">Remake of Gish in Unity</span>
+                <!-- </a> -->
                 <div class="project-tags">
-                    <span itemprop="programmingLanguage keywords">C++</span>
-                    <span itemprop="keywords">OpenGL</span>
-                    <span itemprop="keywords">2D</span>
-                    <span itemprop="keywords">3D</span>
-                    <span itemprop="keywords"><span itemprop="programmingLanguage">C#</span> (Unity)</span>
+                    <span itemprop="programmingLanguage keywords">C#</span>
+                    <span itemprop="keywords">Unity</span>
+                    <span itemprop="keywords">2.5D</span>
                 </div>
             </div>
             <p itemprop="description">
-                Two games developed during my studies in the Universitat Politècnica de Catalunya for the Videogames
-                course. The first one is a recreation in C++ (from scratch) of the famous 2D game "Lemmings", while
-                the second one is a 3D game made in Unity with "Go style", in which the controlled character can move
-                only over a grid.</p>
-            <div class="videos">
+            	My project for the course Technology-driven experimental game design during my master's program in the University
+                of Gothenburg. The objective was to recreate main character from the 2D platformer game Gish. Main focus was to on the jump mechanic of the player. The game created was a 2.5D platformer game with some enemies and a point collecting system.   
+                </p>
+            <ul class="link-list">
+            	<li>
+                    <i class="fab fa-github"></i>
+                    <a itemprop="codeRepository" href="https://github.com/neo2696/DIT466_PhysAnimationProject/">Source code</a>
+                </li>
+            </ul>
+
+
+             <div class="videos">
                 <div class="video" itemprop="trailer" itemscope itemtype="http://schema.org/VideoObject">
-                    <meta itemprop="name" content="Demo Lemmings">
-                    <meta itemprop="description" content="Demo of my recreation of the videogame Lemmings">
-                    <meta itemprop="thumbnailUrl" content="https://img.youtube.com/vi/LYbgIIOw5tc/default.jpg">
+                    <meta itemprop="name" content="Demo Gish">
+                    <meta itemprop="description" content="Demo of my recreation of Gish game">
+                    <meta itemprop="thumbnailUrl" content="https://img.youtube.com/vi/-T3DHzdNsrs/default.jpg">
                     <meta itemprop="uploadDate" content="2018-04-30">
-                    <iframe src="https://www.youtube.com/embed/LYbgIIOw5tc" frameborder="0"
+                    <iframe src="https://www.youtube.com/embed/-T3DHzdNsrs" frameborder="0"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen>
                     </iframe>
-                </div>
-                <div class="video" itemprop="trailer" itemscope itemtype="http://schema.org/VideoObject">
-                    <meta itemprop="name" content="Go-Style 3D Game">
-                    <meta itemprop="description"
-                          content="Demo of my Go-Style 3D game made in Unity for the course in VideoGames at the Polytechnic University of Catalonia">
-                    <meta itemprop="thumbnailUrl" content="https://img.youtube.com/vi/fFqAYcFgHzg/default.jpg">
-                    <meta itemprop="uploadDate" content="2019-11-23">
-                    <iframe src="https://www.youtube.com/embed/fFqAYcFgHzg" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen>
-                    </iframe>
-                </div>
-            </div>
-        </div>
+                </div> 
+         </div> 
         <div class="project" itemscope itemtype="https://schema.org/Game">
             <div class="project-header">
                 <a itemprop="url"
@@ -649,7 +633,7 @@ l-55 116 -71 42 c-75 43 -90 49 -78 29z"/>
                 played over a hexagonal board with lots of strategic planning and quite a good amount of tension.
             </p>
         </div>
-        <h3>Apps</h3>
+        <!-- <h3>Apps</h3>
         <div class="project" itemscope itemtype="http://schema.org/SoftwareSourceCode">
             <link itemprop="author" rel="author" href="https://david-campos.github.io">
             <div class="project-header">
@@ -815,7 +799,7 @@ l-55 116 -71 42 c-75 43 -90 49 -78 29z"/>
             Designed by <a href="https://ideami.com/ideami/">Javier Ideami</a>, the application aimed at being as
             simple as possible and containing as few text as possible in order to make it accessible to a
             wider range of users.</p>
-    </section> -->
+    </section> --> 
 </main>
 <footer>
     <div>Web page by Ameya Kanojia.</div>
